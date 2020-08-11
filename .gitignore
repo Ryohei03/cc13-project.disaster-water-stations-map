@@ -1,0 +1,8 @@
+node_modules
+/build
+
+# Editor directories and files
+.env
+
+# Log files
+yarn-error.log*
