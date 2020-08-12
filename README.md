@@ -8,6 +8,8 @@
  Also, we may not deeply understand this place and it may be difficult that people find it.
  So when we choose the place, we can look at the picture of the place.
 
+![AppImage](https://github.com/Ryohei03/cc13-project.disaster-water-stations-map/AppImage.png)
+
 
 ## Installation
 The environment is assumed that "node.js" and "postgreSQL" have already been installed.
