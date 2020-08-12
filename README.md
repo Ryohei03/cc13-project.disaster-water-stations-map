@@ -1,10 +1,12 @@
-# dinosaur's-image-API
+# disaster-water-stations-map
  (NOTE:“This was created during my time as a student at Code Chrysalis”)
 
 ## Overview
 
-`dinosaur's-image-API` helps you have a child who loves dinosaurs. You just enter dinosaur's name
- then their images will be showing off.
+`disaster-water-stations-map` 
+ When an earthquake hits, we use this map for knowing nearby a water station. 
+ Also, we may not deeply understand this place and it may be difficult that people find it.
+ So when we choose the place, we can look at the picture of the place.
 
 
 ## Installation
@@ -15,27 +17,20 @@ You can download a library.
 To initialize your environment:
 
     $ yarn
+    $ yarn build
+    $ yarn start
+    $ node seeds/import.js
 
 
 
 ## Getting Started
 
     $ yarn start
+    Then open http://localhost:9000/ wtih brouser.
 
-Now the Express server has started and is ready to receive API requests.
-Now let's call the API from a very simple HTML file.
+Now the Express server has started and is ready to receive requests.
 
-Launch the "index.html" file and let's push the `GET`, `POST`, `PUT`, `DELETE` button to call it.
+## Features
+Assuming water is needed, this map highlights rivers, ponds, and seas in blue.
 
-API Endpoints are  
-
-`GET`: `http://localhost:3000/api/dinosaursimageAPI/:Name`  
-
-
-`POST`: `http://localhost:3000/api/dinosaursimageAPI/`  
-
-
-`PUT`: `http://localhost:3000/api/dinosaursimageAPI/:Name`  
-
-
-`DELETE`: `http://localhost:3000/api/dinosaursimageAPI/:Name`
+Geolocation is used because of searching for current locations.
